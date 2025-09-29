@@ -1,4 +1,5 @@
 import React from 'react';
+import myp from '../assets/images/myp.png';
 import { ChevronDown, Download } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
@@ -74,7 +75,7 @@ export function Hero() {
 
     {/* Hero image */}
     <img 
-      src="/src/assets/images/myp.png" 
+      src={myp} 
       alt="Kavindu Suriyawansha" 
       className="hero-image w-full max-w-md"
     />

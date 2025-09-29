@@ -1,4 +1,5 @@
 import { SocialLink, Project, Skill, Experience, Education } from '../types';
+import placeholderProject from '../assets/images/placeholder-project.jpg';
 
 export const SOCIAL_LINKS: SocialLink[] = [
   {
@@ -28,7 +29,7 @@ export const PROJECTS: Project[] = [
     id: '1',
     title: 'E-Commerce Platform',
     description: 'A full-stack e-commerce platform built with React, Node.js, and MongoDB. Features include user authentication, product management, shopping cart, and payment integration.',
-    image: '/src/assets/images/placeholder-project.jpg',
+    image: placeholderProject,
     technologies: ['React', 'Node.js', 'MongoDB', 'Express', 'Stripe'],
     liveUrl: 'https://example-ecommerce.com',
     githubUrl: 'https://github.com/kavindu/ecommerce',
@@ -38,7 +39,7 @@ export const PROJECTS: Project[] = [
     id: '2',
     title: 'Task Management App',
     description: 'A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.',
-    image: '/src/assets/images/placeholder-project.jpg',
+    image: placeholderProject,
     technologies: ['React', 'TypeScript', 'Socket.io', 'PostgreSQL'],
     liveUrl: 'https://example-tasks.com',
     githubUrl: 'https://github.com/kavindu/taskmanager',
@@ -48,7 +49,7 @@ export const PROJECTS: Project[] = [
     id: '3',
     title: 'Weather Dashboard',
     description: 'A responsive weather dashboard that displays current weather and forecasts for multiple cities with interactive charts and maps.',
-    image: '/src/assets/images/placeholder-project.jpg',
+    image: placeholderProject,
     technologies: ['React', 'Chart.js', 'OpenWeather API', 'Tailwind CSS'],
     liveUrl: 'https://example-weather.com',
     githubUrl: 'https://github.com/kavindu/weather-dashboard',

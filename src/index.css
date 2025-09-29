@@ -1,0 +1,29 @@
+/* PLEASE NOTE: THESE TAILWIND IMPORTS SHOULD NEVER BE DELETED */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+/* DO NOT DELETE THESE TAILWIND IMPORTS, OTHERWISE THE STYLING WILL NOT RENDER AT ALL */
+
+@layer utilities {
+  .perspective-800 {
+    perspective: 800px;
+  }
+
+  .hero-image {
+    position: relative;
+    border-radius: 9999px; /* full */
+    border-width: 2px;
+    border-color: #3498db;
+    box-shadow: 0 20px 50px rgba(52, 152, 219, 0.25);
+    transition: transform 500ms ease, box-shadow 500ms ease, filter 500ms ease;
+    will-change: transform;
+  }
+  
+
+
+  .hero-image:hover {
+    transform: scale(1.02) rotateY(6deg) rotateX(3deg);
+    box-shadow: 0 30px 70px rgba(52, 152, 219, 0.35);
+    filter: saturate(1.05);
+  }
+}

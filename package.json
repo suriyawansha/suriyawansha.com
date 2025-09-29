@@ -1,10 +1,9 @@
 {
-  "name": "kavindu-suriyawansha-portfolio",
-  "version": "1.0.0",
+  "name": "suriyawansha.com",
+  "version": "0.0.0",
   "private": true,
   "description": "Professional portfolio website for Kavindu Suriyawansha - Web Developer",
   "type": "module",
-  "homepage": "https://suriyawansha.github.io/suriyawansha.com",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

@@ -1,6 +1,8 @@
 import React from 'react';
 import { GithubIcon, LinkedinIcon, TwitterIcon, MailIcon } from 'lucide-react';
 import { CONTACT_INFO } from '../constants';
+import { Link } from 'react-router-dom';
+//import { FaGithub, FaLinkedin, FaTwitter, FaGmail } from "react-icons/fa";
 
 const iconMap = {
   GithubIcon: GithubIcon,
@@ -28,27 +30,44 @@ export function Footer() {
             <h4 className="text-lg font-semibold">Quick Links</h4>
             <ul className="space-y-2">
               <li>
-                <a href="about" className="text-gray-400 hover:text-[#3498db] transition-colors">
+                <Link 
+                to="/about"
+                className="text-gray-400 hover:text-[#3498db] transition-colors">
                   About
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="services" className="text-gray-400 hover:text-[#3498db] transition-colors">
+                <Link 
+                to="/services"
+                className="text-gray-400 hover:text-[#3498db] transition-colors">
                   Services
-                </a>
+                </Link>
+                {/* <Link 
+                            to="/contact"
+                            className="border border-[#3498db] text-[#3498db] hover:bg-[#3498db] hover:text-white px-8 py-3 rounded-md font-medium transition duration-300 transform hover:scale-105"
+                >
+                            Hire me
+                          </Link> */}
               </li>
               <li>
-                <a href="portfolio" className="text-gray-400 hover:text-[#3498db] transition-colors">
+                <Link 
+                to="/portfolio"
+                className="text-gray-400 hover:text-[#3498db] transition-colors">
                   Portfolio
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="contact" className="text-gray-400 hover:text-[#3498db] transition-colors">
+                <Link 
+                to="/contact"
+                className="text-gray-400 hover:text-[#3498db] transition-colors">
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
+
+
+
 
           {/* Contact & Social */}
           <div className="space-y-4">

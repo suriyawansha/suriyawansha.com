@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { ExternalLink, Github, Star } from 'lucide-react';
 import { PROJECTS } from '../constants';
+import { Link } from 'react-router-dom';
 
 export function Portfolio() {
   const [filter, setFilter] = useState('all');
@@ -150,12 +151,13 @@ export function Portfolio() {
           <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
             I'm always excited to take on new challenges and create amazing web experiences.
           </p>
-          <a 
-            href="contact"
+          
+          <Link
+            to="/contact"
             className="bg-[#3498db] hover:bg-[#2980b9] text-white px-8 py-3 rounded-md font-medium transition duration-300"
           >
             Let's Discuss Your Project
-          </a>
+          </Link>
         </div>
       </div>
     </div>

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Code, Palette, Smartphone, Search, Zap, Shield } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const services = [
   {
@@ -127,18 +128,18 @@ export function Services() {
             Let's discuss your project and bring your ideas to life with modern web technologies.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a 
-              href="contact"
+            <Link 
+              to="/contact"
               className="border border-[#3498db] text-[#3498db] hover:bg-[#3498db] hover:text-white px-8 py-3 rounded-md font-medium transition duration-300"
             >
               Hire me
-            </a>
-            <a 
-              href="portfolio"
+            </Link>
+            <Link
+              to="/portfolio"
               className="border border-[#3498db] text-[#3498db] hover:bg-[#3498db] hover:text-white px-8 py-3 rounded-md font-medium transition duration-300"
             >
               View My Work
-            </a>
+            </Link>
           </div>
         </div>
       </div>

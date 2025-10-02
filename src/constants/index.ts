@@ -4,12 +4,12 @@ import placeholderProject from '../assets/images/placeholder-project.jpg';
 export const SOCIAL_LINKS: SocialLink[] = [
   {
     name: 'LinkedIn',
-    url: 'https://linkedin.com/in/kavindu-suriyawansha',
+    url: 'https://linkedin.com/in/kavindu-suriyawansha-5064b5282/',
     icon: 'LinkedinIcon'
   },
   {
     name: 'GitHub',
-    url: 'https://github.com/kavindu-suriyawansha',
+    url: 'https://github.com/suriyawansha',
     icon: 'GithubIcon'
   },
   {
@@ -19,7 +19,7 @@ export const SOCIAL_LINKS: SocialLink[] = [
   },
   {
     name: 'Email',
-    url: 'mailto:kavindu@suriyawansha.me',
+    url: 'mailto:suriyawansha.me@gmail.com',
     icon: 'MailIcon'
   }
 ];
